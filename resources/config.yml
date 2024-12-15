@@ -1,0 +1,18 @@
+database:
+    host: localhost
+    port: 5432
+    username: user
+    password: pass
+    name: mydatabase
+
+server:
+    host: 127.0.0.1
+    port: 8501
+
+logging:
+    level: INFO
+    file: /var/log/myapp.log
+
+features:
+    enable_feature_x: true
+    enable_feature_y: false
